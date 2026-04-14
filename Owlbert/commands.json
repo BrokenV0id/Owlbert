@@ -1,0 +1,26 @@
+{
+	"do you know any jokes": {
+		"include_number": false,
+		"error_messages": ["Sorry, I don't know any jokes.", "I'm sorry, I can't think of any right now."],
+		"url": "https://icanhazdadjoke.com/",
+		"headers": {"Accept": "text/plain"}
+	},
+	"can you turn the light on": {
+		"include_number": false,
+		"error_messages": ["I can't seem to find the light switch"],
+		"url": "http://127.0.0.1/string?value=on",
+		"headers": {"Accept": "text/plain"}
+	},
+	"can you turn the light off": {
+		"include_number": false,
+		"error_messages": ["I can't seem to find the light switch"],
+		"url": "http://127.0.0.1/string?value=off",
+		"headers": {"Accept": "text/plain"}
+	},
+	"can you set the oven to": {
+		"include_number": true,
+		"error_messages": ["I can't seem to find the kitchen"],
+		"url": "http://127.0.0.1/int?value=",
+		"headers": {"Accept": "text/plain"}
+	}
+}
